@@ -1,3 +1,4 @@
+import sys
 def bankOper(initialBal, deposit, withdraw):
     totalBal = initialBal + deposit
     updatedBal = totalBal - withdraw
